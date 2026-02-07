@@ -1079,7 +1079,10 @@
         <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c</name>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c</name>
@@ -1110,6 +1113,24 @@
       </file>
       <file>
         <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c</name>
       </file>
     </group>
     <group>
