@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -641,6 +641,18 @@
     [
       "8ed38441-7d4e-4e89-870f-07e11c6dce38",
       "Root"
+    ],
+    [
+      "a0577c68-7704-4db8-8197-8ee2da4afb93",
+      "MCU"
+    ],
+    [
+      "38bcdc9d-582a-45a7-b0b4-f0014b983161",
+      "ETH_PHY"
+    ],
+    [
+      "3a68c5e2-02a1-4a09-a9eb-48a5ebeec164",
+      "POWER"
     ]
   ],
   "text_variables": {}
