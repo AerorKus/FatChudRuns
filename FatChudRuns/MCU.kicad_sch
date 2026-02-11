@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "69aae3a4-aac4-4d38-897a-555ea2ad99ea")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
@@ -3332,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97af829d-3b06-4b62-9211-aec7c0726b4a")
+	)
+	(wire
+		(pts
 			(xy 54.61 147.32) (xy 54.61 143.51)
 		)
 		(stroke
@@ -3774,6 +3784,28 @@
 			)
 		)
 	)
+	(global_label "RCC_MCO"
+		(shape output)
+		(at 190.5 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26805647-3dcf-4cd9-a669-16db9be6d027")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.4098 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ETH_TXD0"
 		(shape output)
 		(at 190.5 132.08 0)
@@ -3819,7 +3851,7 @@
 		)
 	)
 	(global_label "ETH_REF_CLK"
-		(shape output)
+		(shape input)
 		(at 190.5 60.96 0)
 		(fields_autoplaced yes)
 		(effects
