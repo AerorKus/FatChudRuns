@@ -95,8 +95,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 59.055)
-		(size 53.34 26.67)
+		(at 64.77 55.245)
+		(size 45.085 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111,7 +111,7 @@
 		)
 		(uuid "a0577c68-7704-4db8-8197-8ee2da4afb93")
 		(property "Sheetname" "MCU"
-			(at 48.26 58.3434 0)
+			(at 64.77 54.5334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 48.26 86.3096 0)
+			(at 64.77 82.4996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
