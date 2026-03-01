@@ -1,4 +1,4 @@
-27219017742349286
+27220790100197252
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70342,6 +70342,13 @@ THT
 0
 4
 2
+JTAG_20p_2.54mm
+CONN20_TST_33P02X9P27_SAI
+
+TST-110-01-L-D 
+0
+20
+20
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
