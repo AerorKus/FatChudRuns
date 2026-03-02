@@ -1,4 +1,4 @@
-27220790100197252
+27226107557283303
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,27 @@ speaker CUI
 0
 2
 2
+CON14_2X7_DUK_FTSH_SAI
+CON14_2X7_DUK_FTSH_SAI
+
+FTSH-107-01-L-DV-K-P 
+0
+14
+14
+CON14_2X7_DUK_FTSH_SAI
+CON14_2X7_DUK_FTSH_SAI-L
+
+FTSH-107-01-L-DV-K-P 
+0
+14
+14
+CON14_2X7_DUK_FTSH_SAI
+CON14_2X7_DUK_FTSH_SAI-M
+
+FTSH-107-01-L-DV-K-P 
+0
+14
+14
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,

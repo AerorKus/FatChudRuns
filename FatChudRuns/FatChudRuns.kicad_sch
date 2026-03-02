@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 131.445 59.69)
+		(at 155.067 55.626)
 		(size 39.37 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "38bcdc9d-582a-45a7-b0b4-f0014b983161")
 		(property "Sheetname" "ETH_PHY"
-			(at 131.445 58.9784 0)
+			(at 155.067 54.9144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Sheetfile" "ETH_PHY.kicad_sch"
-			(at 131.445 84.4046 0)
+			(at 155.067 80.3406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
