@@ -1755,362 +1755,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 1.27 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Ferrite_Small"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor with ferrite core, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Ferrite_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.651) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.143) (xy 0.762 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.635) (xy 0.762 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.127) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.381) (xy 0.762 -0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.889) (xy 0.762 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.397) (xy 0.762 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.905) (xy 1.016 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.397) (xy 1.016 1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.889) (xy 1.016 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.381) (xy 1.016 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.127) (xy 1.016 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.635) (xy 1.016 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.143) (xy 1.016 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.651) (xy 1.016 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5184,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 50.8) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84731fe8-2319-434d-a6dc-98708e2d0921")
+	)
+	(wire
+		(pts
 			(xy 50.8 160.02) (xy 50.8 166.37)
 		)
 		(stroke
@@ -5331,16 +4985,6 @@
 			(type default)
 		)
 		(uuid "954caaa7-084f-4eb5-80cc-9da46ba8da9e")
-	)
-	(wire
-		(pts
-			(xy 133.35 25.4) (xy 152.4 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b761a9-4004-49ef-aca9-7fa9d6633d81")
 	)
 	(wire
 		(pts
@@ -5694,16 +5338,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 152.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb68abd0-da30-469c-877e-733efa90b1df")
-	)
-	(wire
-		(pts
 			(xy 31.75 118.11) (xy 176.53 118.11)
 		)
 		(stroke
@@ -5751,6 +5385,16 @@
 			(type default)
 		)
 		(uuid "c29fa45c-360e-497f-a0a4-468642bd2b28")
+	)
+	(wire
+		(pts
+			(xy 133.35 25.4) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2adadc8-897a-408e-93f5-23b65bed4a9e")
 	)
 	(wire
 		(pts
@@ -14185,6 +13829,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 387.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3f2b1a-aaf6-4cdb-ac34-93ef99f9fe0e")
+		(property "Reference" "R40"
+			(at 382.27 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 381.762 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 385.572 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 387.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1a76205-d5c1-4e32-a23e-99ce77c85177")
+		)
+		(pin "1"
+			(uuid "bf109eb1-ba84-42da-8047-82febf3adf12")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 163.83 0)
 		(unit 1)
@@ -14455,76 +14168,6 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 387.35 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e981115-ea35-4e9c-95c5-2cf27cb0c7d2")
-		(property "Reference" "R40"
-			(at 389.89 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 389.89 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 385.572 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 387.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 387.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba568792-d510-471e-a81c-7735c77dc3e7")
-		)
-		(pin "1"
-			(uuid "fb27d81f-0b87-4d77-abbd-dac01bc27b0e")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -15199,74 +14842,6 @@
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 154.94 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40474cef-6fcf-47f1-9cab-33cbc864a5e7")
-		(property "Reference" "L3"
-			(at 154.94 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Ferrite_Small"
-			(at 154.94 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a794954d-35ae-4f82-ad8f-e2aa4b94e31d")
-		)
-		(pin "1"
-			(uuid "891e41c4-8e92-4a50-9ece-6a3b9ef1a33f")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -16159,6 +15734,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 153.67 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a8155a4-bc6e-4686-ad59-ece23816e394")
+		(property "Reference" "R46"
+			(at 153.416 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 153.67 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea0fb538-bbef-4a07-a074-fae9fe8727a9")
+		)
+		(pin "1"
+			(uuid "1dc5ba52-8809-4a6d-9b50-4aca270d49a6")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 379.73 66.04 0)
 		(unit 1)
@@ -16434,74 +16076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 154.94 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "700d15c1-3f9f-4de8-9794-5844470ca6f3")
-		(property "Reference" "L2"
-			(at 154.94 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Ferrite_Small"
-			(at 154.94 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 154.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab06a97f-ac47-4238-a580-a08ce25120c7")
-		)
-		(pin "1"
-			(uuid "c0a45465-6f89-4be0-9d34-811864a620ac")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 297.18 80.01 0)
 		(unit 1)
@@ -16767,6 +16341,73 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "809fc8b2-8683-4903-b501-89ce8a3059ee")
+		(property "Reference" "R45"
+			(at 153.416 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 153.67 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81712612-de2e-4d1a-ab4c-79750bb14d11")
+		)
+		(pin "1"
+			(uuid "7e8ad64b-223b-46df-afa4-ba377566b7ab")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -17325,7 +16966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "220"
 			(at 374.142 73.152 0)
 			(effects
 				(font
