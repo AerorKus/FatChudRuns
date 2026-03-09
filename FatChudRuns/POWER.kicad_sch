@@ -702,7 +702,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_US"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -714,7 +714,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -722,8 +722,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -749,7 +749,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor, US symbol"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -758,7 +758,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -776,13 +776,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_US_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -791,34 +791,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -826,10 +802,10 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_US_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -846,192 +822,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1156,6 +949,180 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:IR26-21C_L110_TR8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IR26-21C_L110_TR8"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "940nm, 20 deg, Infrared LED, 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*1206*3216Metric*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IR26-21C_L110_TR8_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IR26-21C_L110_TR8_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2771,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 156.21) (xy 196.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193db133-8f5f-4120-a3b7-95620e3b1fb9")
+	)
+	(wire
+		(pts
 			(xy 186.69 124.46) (xy 196.85 124.46)
 		)
 		(stroke
@@ -2818,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "26ea1c5c-db40-4050-a4c2-8bb65e31a930")
-	)
-	(wire
-		(pts
-			(xy 177.8 207.01) (xy 177.8 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2efb166b-af0c-4d28-8e82-ee08a1371817")
 	)
 	(wire
 		(pts
@@ -2971,16 +2938,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 171.45) (xy 147.32 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6618d738-fe44-4460-964d-a75418857499")
-	)
-	(wire
-		(pts
 			(xy 93.98 139.7) (xy 95.25 139.7)
 		)
 		(stroke
@@ -3011,6 +2968,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 156.21) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e046917-c57b-4271-973e-1435e879149e")
+	)
+	(wire
+		(pts
 			(xy 93.98 129.54) (xy 107.95 129.54)
 		)
 		(stroke
@@ -3018,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "70fa0e37-50cd-41f7-b50d-0cbe1ce19559")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f4c8df-eb28-4508-af4c-04d294aaf067")
 	)
 	(wire
 		(pts
@@ -3061,16 +3038,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 139.7) (xy 196.85 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "848d200c-3924-454c-8d5b-d316d0e70a36")
-	)
-	(wire
-		(pts
 			(xy 175.26 139.7) (xy 175.26 140.97)
 		)
 		(stroke
@@ -3081,17 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 156.21) (xy 196.85 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1a6454-f664-4888-bb51-def0340152ff")
-	)
-	(wire
-		(pts
-			(xy 196.85 171.45) (xy 196.85 166.37)
+			(xy 196.85 165.1) (xy 196.85 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3128,6 +3085,16 @@
 			(type default)
 		)
 		(uuid "96608fed-1fd0-4092-aaed-076d2adf0423")
+	)
+	(wire
+		(pts
+			(xy 147.32 133.35) (xy 147.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971146b8-e113-4240-a458-8ee59bd3153a")
 	)
 	(wire
 		(pts
@@ -3181,16 +3148,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 124.46) (xy 196.85 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb98fb8-1e80-4433-b63c-90a9fdd9772b")
-	)
-	(wire
-		(pts
 			(xy 95.25 144.78) (xy 95.25 142.24)
 		)
 		(stroke
@@ -3201,13 +3158,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 139.7) (xy 147.32 134.62)
+			(xy 177.8 207.01) (xy 177.8 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1f3e75d-1cc8-4b9b-bdf5-9f1012c9cf59")
+		(uuid "bf889b58-621e-4583-b9d0-a3c82d4fed7d")
 	)
 	(wire
 		(pts
@@ -3248,16 +3205,6 @@
 			(type default)
 		)
 		(uuid "c69306be-de33-435f-87bc-55e33de080ff")
-	)
-	(wire
-		(pts
-			(xy 147.32 158.75) (xy 147.32 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d39a40-d2d3-4565-9e5d-62b470668222")
 	)
 	(wire
 		(pts
@@ -3321,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 124.46) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e122b674-c848-4351-9b89-dc192b776951")
+	)
+	(wire
+		(pts
 			(xy 99.06 163.83) (xy 99.06 166.37)
 		)
 		(stroke
@@ -3381,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 165.1) (xy 147.32 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f181e779-1eeb-4a36-a122-4fc52c9dcfc2")
+	)
+	(wire
+		(pts
 			(xy 118.11 124.46) (xy 118.11 134.62)
 		)
 		(stroke
@@ -3391,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 147.32 124.46)
+			(xy 147.32 124.46) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3494,17 +3461,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 203.2 90)
+		(lib_id "LED:IR26-21C_L110_TR8")
+		(at 196.85 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0cd38efa-3d18-46ab-9c54-59c9b56fdb7f")
-		(property "Reference" "D2"
-			(at 181.61 203.5174 90)
+		(uuid "0f0b5ae1-fdd9-4863-ac19-fddcf82c1dd4")
+		(property "Reference" "D1"
+			(at 200.66 203.5174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,8 +3479,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 181.61 206.0574 90)
+		(property "Value" "IR26-21C_L110_TR8"
+			(at 200.66 206.0574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,8 +3488,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 203.2 0)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 191.77 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,8 +3497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 203.2 0)
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+			(at 196.85 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,17 +3506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 203.2 0)
+		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
+			(at 196.85 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,15 +3516,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef742d66-3b3e-4ca8-8213-9487e6e4a9f2")
+			(uuid "3195b513-ec97-49bb-a654-02482aa1b87d")
 		)
 		(pin "2"
-			(uuid "5926fec3-bb05-4b2a-8c89-2a7c3b6e6b5c")
+			(uuid "fee75d82-2fbb-4a44-99e1-1d82de1ceb17")
 		)
 		(instances
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3920,6 +3878,76 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:IR26-21C_L110_TR8")
+		(at 177.8 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d6bad1-da35-4055-85af-42a929a263f2")
+		(property "Reference" "D2"
+			(at 181.61 203.5174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR26-21C_L110_TR8"
+			(at 181.61 206.0574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 172.72 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+			(at 177.8 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
+			(at 177.8 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6a92a60-00f9-4cc6-a0cd-81844038af49")
+		)
+		(pin "2"
+			(uuid "13db0ba4-c5e6-446a-938e-8e6d9871a3a4")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 196.85 194.31 0)
 		(unit 1)
@@ -3983,6 +4011,76 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470f89db-c42f-4979-8800-67195f57d75e")
+		(property "Reference" "C23"
+			(at 149.86 161.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 149.86 163.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "571e33bc-171d-462a-bd9c-2ec39a4a353e")
+		)
+		(pin "2"
+			(uuid "a2c2860f-669f-4106-9bc3-7a18e04bd1a7")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4384,17 +4482,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 147.32 130.81 0)
+		(lib_id "Device:C_Small")
+		(at 196.85 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f0cb6b8-8a7f-4af1-b36a-c982b3562c13")
-		(property "Reference" "C21"
-			(at 151.13 128.9049 0)
+		(uuid "8b7f9acf-0465-48b4-9746-7d7e564ce2bb")
+		(property "Reference" "C22"
+			(at 199.39 129.5462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4501,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 151.13 131.4449 0)
+			(at 199.39 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,8 +4509,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 147.32 130.81 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 130.81 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,8 +4527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 147.32 130.81 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,15 +4537,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e3bfa41-a343-46b2-955e-dc52a3db9130")
+			(uuid "a5c63a17-691f-4bf8-864d-d5e94eac5512")
 		)
 		(pin "2"
-			(uuid "21576a11-9245-4dbb-bb6d-5f523399e083")
+			(uuid "b1a11b44-7c22-4ad8-9243-b3f7d95fa042")
 		)
 		(instances
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4712,76 +4810,6 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 196.85 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c84c699-a08f-4b1b-ad4f-0c59476c76d8")
-		(property "Reference" "C24"
-			(at 200.66 160.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 200.66 163.1949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 196.85 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5361a6af-7d23-4946-8658-605ba99b2aa3")
-		)
-		(pin "2"
-			(uuid "c1a734cb-8654-4740-8d08-6d9c2b6e245d")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5056,6 +5084,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb6b401-fe15-4859-9a01-a7d86afb7d1c")
+		(property "Reference" "C21"
+			(at 149.86 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 149.86 132.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c713abf-c786-4445-9c71-a9520dd1487f")
+		)
+		(pin "2"
+			(uuid "59e1521b-9a13-4e9b-b699-db66961b9dbc")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 170.18 0)
 		(unit 1)
@@ -5207,85 +5305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 196.85 203.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4b22ec8-02b1-4109-96f0-68d2f0c6fe03")
-		(property "Reference" "D1"
-			(at 200.66 203.5174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 200.66 206.0574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f61a98-04d0-4546-9448-75fc81227f96")
-		)
-		(pin "2"
-			(uuid "c3576d63-9d9b-4601-82b8-b6c622060cd1")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x01")
 		(at 123.19 204.47 0)
 		(unit 1)
@@ -5347,76 +5366,6 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 196.85 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df81dae2-08e5-4698-af09-64f7c8a6fc95")
-		(property "Reference" "C22"
-			(at 200.66 128.9049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 200.66 131.4449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 196.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cf3a36f-8e55-400a-aed0-c2c3a0bb044a")
-		)
-		(pin "2"
-			(uuid "e6c0ebb2-4e24-4187-b079-53b5159a59a6")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5555,6 +5504,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edaf68fc-997e-4d6f-9b33-2f53bedac33b")
+		(property "Reference" "C24"
+			(at 199.39 161.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 199.39 163.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 196.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e0aaf8-2a5c-427b-a939-ae96873e953e")
+		)
+		(pin "2"
+			(uuid "73ebea28-c7f3-4825-85ae-17503b05fd07")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 107.95 160.02 0)
 		(unit 1)
@@ -5619,76 +5638,6 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
 					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 147.32 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6162a29-8f81-4c53-8e8b-989a0d345094")
-		(property "Reference" "C23"
-			(at 151.13 160.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 151.13 163.1949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 147.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7243e1f9-9180-4b8a-be08-7ac63f5739d4")
-		)
-		(pin "2"
-			(uuid "935f3fe9-d6b0-488a-8e2a-75c898639537")
-		)
-		(instances
-			(project "FatChudRuns"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3a68c5e2-02a1-4a09-a9eb-48a5ebeec164"
-					(reference "C23")
 					(unit 1)
 				)
 			)
