@@ -498,7 +498,7 @@
 		(uuid "785eefd0-374b-458a-9b4c-b7dde9e0b73f")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/aeror/OneDrive/Documents/Projects/FatChudRuns/footprints/FTSH_107_01_L_DV_K_P/KiCADv6/CON14_2X7_DUK_FTSH_SAI.step"
+	(model "C:/Users/aeror/Documents/Project/FatChudRuns/footprints/FTSH_107_01_L_DV_K_P/KiCADv6/CON14_2X7_DUK_FTSH_SAI.step"
 		(offset
 			(xyz 0 0 0)
 		)
