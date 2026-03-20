@@ -11465,7 +11465,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "100nF"
@@ -11475,7 +11474,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
