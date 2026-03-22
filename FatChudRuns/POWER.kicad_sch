@@ -1772,191 +1772,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ST730M33R_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ST730M33R"
-				(at 22.86 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT_30M33R_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/st730.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ST730M33R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT_30M33R_STM SOT_30M33R_STM-M SOT_30M33R_STM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ST730M33R_1_0_1"
-				(pin no_connect line
-					(at 33.02 -3.81 180)
-					(length 2.54)
-					(name "NC/ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ST730M33R_1_1_1"
-				(rectangle
-					(start 12.7 5.08)
-					(end 30.48 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 10.16 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -3.81 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 21.59 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 33.02 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2465,16 +2280,10 @@
 		(uuid "72338d0e-f86b-4567-9feb-5867c339a97b")
 	)
 	(junction
-		(at 172.72 129.54)
+		(at 176.53 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "727aca11-0a86-4385-b08d-1cfcd568446b")
-	)
-	(junction
-		(at 172.72 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8413e2b8-e7cc-4fa2-85d0-0b3e2ac0d0f8")
+		(uuid "8d349082-bdc4-4297-bf9d-b3be51bb2e87")
 	)
 	(junction
 		(at 140.97 101.6)
@@ -2499,6 +2308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac070f65-5207-449c-bca5-2c8a06baa163")
+	)
+	(junction
+		(at 176.53 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdbfd234-c363-4527-a75b-198b895698bd")
 	)
 	(junction
 		(at 91.44 101.6)
@@ -2672,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 172.72 101.6)
+			(xy 140.97 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2719,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "57253b36-ac44-4a60-864b-e1da71b081ef")
+	)
+	(wire
+		(pts
+			(xy 176.53 129.54) (xy 187.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf12e58-4e8c-4ece-9573-08187a937b97")
 	)
 	(wire
 		(pts
@@ -2942,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 161.29) (xy 172.72 161.29)
+			(xy 167.64 161.29) (xy 176.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 110.49)
+			(xy 176.53 101.6) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3019,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "ce972d6d-f1cb-4268-ac51-a4f6866639b8")
+	)
+	(wire
+		(pts
+			(xy 176.53 161.29) (xy 187.96 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2ea1d8-8416-4b09-a3bf-72c68718e84b")
 	)
 	(wire
 		(pts
@@ -3122,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 172.72 161.29)
+			(xy 176.53 129.54) (xy 176.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 172.72 129.54)
+			(xy 176.53 118.11) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3202,16 +3037,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28547d5-7284-41fd-bf24-6c31db600bf1")
-	)
-	(wire
-		(pts
 			(xy 100.33 101.6) (xy 100.33 111.76)
 		)
 		(stroke
@@ -3229,16 +3054,6 @@
 			(type default)
 		)
 		(uuid "f71859e7-5af2-4103-b0ee-2a7c1b241987")
-	)
-	(wire
-		(pts
-			(xy 172.72 161.29) (xy 187.96 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f722e775-d0bf-48f6-87dc-5df6ec61a8b3")
 	)
 	(wire
 		(pts
@@ -3260,15 +3075,45 @@
 		)
 		(uuid "fffa6e92-1f2a-4727-8bf7-e98a972ad98f")
 	)
-	(label "LDO_EN"
-		(at 161.29 161.29 0)
+	(label "+3.3V"
+		(at 227.33 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1b9af0eb-7d58-444d-b8ea-3a5e6c19339b")
+		(uuid "1a42f2db-3206-448a-b1ba-e03583b74794")
+	)
+	(label "+3.3VA"
+		(at 227.33 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c46497a-5619-4dc9-bfe9-422eae3723a7")
+	)
+	(label "GND"
+		(at 63.5 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fad1b54-4cae-44db-a5ff-2e4b21e9cf24")
+	)
+	(label "+5V"
+		(at 115.57 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db82159c-e0a1-4df0-bea4-bc62cb24ff61")
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
@@ -3288,6 +3133,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO_EN"
+		(shape input)
+		(at 167.64 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96ea4eaf-9700-493c-875b-02c4c9fc1412")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.484 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3316,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 114.3 0)
+		(at 176.53 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3325,7 +3192,7 @@
 		(fields_autoplaced yes)
 		(uuid "08134c6b-6456-4e31-ad79-20e014d0b860")
 		(property "Reference" "R53"
-			(at 175.26 113.0299 0)
+			(at 179.07 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3201,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 175.26 115.5699 0)
+			(at 179.07 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.942 114.3 90)
+			(at 174.752 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 114.3 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 114.3 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SOT_30M33R_STM:SOT_30M33R_STM"
+		(property "Footprint" "SOT_30M33R_STM"
 			(at 177.8 157.48 0)
 			(effects
 				(font
@@ -4077,7 +3944,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ST730M33R_1")
 		(lib_id "ST730:ST730M33R")
 		(at 177.8 125.73 0)
 		(unit 1)
@@ -4103,7 +3969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SOT_30M33R_STM:SOT_30M33R_STM"
+		(property "Footprint" "SOT_30M33R_STM"
 			(at 177.8 125.73 0)
 			(effects
 				(font

@@ -12811,7 +12811,7 @@
 		)
 		(uuid "07dd6aea-a115-47d4-9281-954e0b3abb3f")
 	)
-	(label "TD_N"
+	(label "ETH_TD-"
 		(at 323.85 83.82 0)
 		(effects
 			(font
@@ -12821,7 +12821,7 @@
 		)
 		(uuid "17a4fe77-b9b0-4cf3-922a-2c4d8f64092b")
 	)
-	(label "RD_P"
+	(label "ETH_RD+"
 		(at 323.85 86.36 0)
 		(effects
 			(font
@@ -12831,7 +12831,7 @@
 		)
 		(uuid "2b818bb9-78e9-49fe-8dc6-1374b441f0b6")
 	)
-	(label "TD_N"
+	(label "ETH_TD-"
 		(at 285.75 93.98 180)
 		(effects
 			(font
@@ -13011,7 +13011,7 @@
 		)
 		(uuid "ccde1770-d8da-4d94-aa2f-0e09d3cf731a")
 	)
-	(label "RD_P"
+	(label "ETH_RD+"
 		(at 285.75 99.06 180)
 		(effects
 			(font
@@ -13021,7 +13021,7 @@
 		)
 		(uuid "d3c106fb-734a-4467-8fc1-94fba03e7f56")
 	)
-	(label "TD_P"
+	(label "ETH_TD+"
 		(at 323.85 78.74 0)
 		(effects
 			(font
@@ -13051,7 +13051,7 @@
 		)
 		(uuid "e0636ad7-b034-45f2-8534-68bfa63edb49")
 	)
-	(label "RD_N"
+	(label "ETH_RD-"
 		(at 285.75 121.92 180)
 		(effects
 			(font
@@ -13061,7 +13061,7 @@
 		)
 		(uuid "e5d63f90-6f75-4ba4-a653-201379ac4251")
 	)
-	(label "RD_N"
+	(label "ETH_RD-"
 		(at 323.85 91.44 0)
 		(effects
 			(font
@@ -13091,8 +13091,9 @@
 		)
 		(uuid "ebc55e36-87b4-4fd9-9ffb-0d33a93c286a")
 	)
-	(label "TD_P"
+	(label "ETH_TD+"
 		(at 285.75 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13100,6 +13101,16 @@
 			(justify right bottom)
 		)
 		(uuid "f60f9501-d918-4a5e-87c0-f664b5452de9")
+		(property "ETH_DP100" ""
+			(at 285.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "RCC_MCO"
 		(shape input)
