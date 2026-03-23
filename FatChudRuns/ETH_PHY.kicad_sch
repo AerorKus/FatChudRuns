@@ -3248,6 +3248,12 @@
 		(uuid "1106c199-5d36-4f74-9279-bc48a42d6977")
 	)
 	(junction
+		(at 356.87 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "135cc328-9db9-4d00-b921-a1d9e033943c")
+	)
+	(junction
 		(at 59.69 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3548,6 +3554,12 @@
 		(uuid "f82fbb2e-fc1c-4718-8a86-9d73ff87c6b8")
 	)
 	(junction
+		(at 339.09 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f89e1e40-14cf-45b5-a740-6a7aeb159c69")
+	)
+	(junction
 		(at 101.6 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3594,6 +3606,16 @@
 			(type default)
 		)
 		(uuid "018ff0ab-12d1-4c22-8f29-3098486309a5")
+	)
+	(wire
+		(pts
+			(xy 347.98 104.14) (xy 339.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b4273-0801-4c0f-8ce6-433bf961a8be")
 	)
 	(wire
 		(pts
@@ -3654,6 +3676,16 @@
 			(type default)
 		)
 		(uuid "07701b13-c80a-4f46-a26e-d6c76c25fa29")
+	)
+	(wire
+		(pts
+			(xy 347.98 99.06) (xy 356.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077e7078-3d3d-43ee-afa8-d293b9519e51")
 	)
 	(wire
 		(pts
@@ -4467,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 99.06) (xy 356.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc0e8d5-c9f8-4301-8520-14e2fbab163c")
+	)
+	(wire
+		(pts
 			(xy 64.77 107.95) (xy 176.53 107.95)
 		)
 		(stroke
@@ -4617,6 +4659,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 101.6) (xy 339.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f01bf2-ef38-42ce-a341-682ef29c8000")
+	)
+	(wire
+		(pts
 			(xy 227.33 148.59) (xy 232.41 148.59)
 		)
 		(stroke
@@ -4727,6 +4779,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 104.14) (xy 356.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b0467f-bd74-4c55-b34d-17b42e5901fb")
+	)
+	(wire
+		(pts
 			(xy 259.08 99.06) (xy 285.75 99.06)
 		)
 		(stroke
@@ -4747,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 99.06) (xy 369.57 99.06)
+			(xy 365.76 99.06) (xy 373.38 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4887,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 99.06) (xy 340.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872adadd-634a-42a3-9fa2-a90e8d705352")
+	)
+	(wire
+		(pts
 			(xy 361.95 125.73) (xy 361.95 124.46)
 		)
 		(stroke
@@ -4974,6 +5046,16 @@
 			(type default)
 		)
 		(uuid "8e6382d7-c71f-45ee-b61d-4440e0fc21f5")
+	)
+	(wire
+		(pts
+			(xy 334.01 102.87) (xy 334.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8d3495-5e28-4bbc-82e7-9d080ea32a94")
 	)
 	(wire
 		(pts
@@ -5437,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 99.06) (xy 339.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf76c98-2a35-437c-90ec-60445df73497")
+	)
+	(wire
+		(pts
 			(xy 101.6 78.74) (xy 101.6 135.89)
 		)
 		(stroke
@@ -5474,6 +5566,16 @@
 			(type default)
 		)
 		(uuid "cd67af94-6f23-4858-97ff-eb2c517557f1")
+	)
+	(wire
+		(pts
+			(xy 334.01 101.6) (xy 339.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5e0f97-a02e-408d-8dc8-5441fe57f4d3")
 	)
 	(wire
 		(pts
@@ -5884,6 +5986,16 @@
 			(type default)
 		)
 		(uuid "f69c555a-91b6-4561-8002-235f7fcc40d3")
+	)
+	(wire
+		(pts
+			(xy 356.87 99.06) (xy 365.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6af596b-0e0d-4edb-b637-6fc6e2201a42")
 	)
 	(wire
 		(pts
@@ -14327,6 +14439,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 344.17 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23dbbe93-1e48-4021-9cab-9a40b6bff2d1")
+		(property "Reference" "R59"
+			(at 344.17 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 344.17 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 344.17 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c057768d-2e6a-4132-b7bb-ab609b96e8a5")
+		)
+		(pin "1"
+			(uuid "d4b0bc8c-98ba-405c-bd7f-7f1b72d7d9cf")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 234.95 161.29 0)
 		(unit 1)
@@ -16091,6 +16270,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 334.01 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d016d4-443c-47c9-81e8-4771f502732a")
+		(property "Reference" "#PWR064"
+			(at 334.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96bb4ec2-5fd6-470e-a6f5-a4568382ce23")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 154.94 0)
 		(unit 1)
@@ -16839,7 +17083,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 369.57 99.06 0)
+		(at 373.38 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16848,7 +17092,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c3db8a2-a48c-48e4-8d10-42a07a795174")
 		(property "Reference" "#FLG06"
-			(at 369.57 97.155 0)
+			(at 373.38 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16857,7 +17101,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 369.57 93.98 0)
+			(at 373.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16865,7 +17109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16874,7 +17118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17127,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 369.57 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17638,6 +17882,73 @@
 			(project "FatChudRuns"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 351.79 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4297353-ae34-4757-878d-e35d0c797259")
+		(property "Reference" "R58"
+			(at 351.79 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 351.79 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 351.79 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 351.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3f0cc98-bc6a-49a3-8403-a0beacf0f237")
+		)
+		(pin "1"
+			(uuid "69120a34-af05-46f7-b57f-ba0c56de0c37")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "R58")
 					(unit 1)
 				)
 			)
