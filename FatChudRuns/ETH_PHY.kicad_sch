@@ -1719,8 +1719,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -21.59 39.37 0)
+			(property "Reference" "U2"
+				(at 4.6833 43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 				)
 			)
 			(property "Value" "DP83848I"
-				(at 12.7 39.37 0)
+				(at 4.6833 40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 				(at 25.4 -39.37 0)
 				(effects
 					(font
@@ -2333,6 +2333,24 @@
 						)
 					)
 					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -40.64 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3223,11 +3241,27 @@
 		)
 		(uuid "41d335b0-88d5-45ee-810c-fe674064b7d7")
 	)
+	(text "DP83848I"
+		(exclude_from_sim no)
+		(at 118.618 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "933321cf-29c9-4ce3-a68e-4ed121c8fef3")
+	)
 	(junction
 		(at 361.95 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02604f84-6dfd-42f5-bcb5-a7b8ca2e4d16")
+	)
+	(junction
+		(at 175.26 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "053babbb-fb00-443a-9e37-d334460294aa")
 	)
 	(junction
 		(at 256.54 171.45)
@@ -3264,6 +3298,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18eec8ab-d466-4c69-9018-ad5452b0a7b0")
+	)
+	(junction
+		(at 185.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1911f375-9b6c-4642-a6fd-575d2c68d603")
 	)
 	(junction
 		(at 114.3 138.43)
@@ -3330,6 +3370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d6e0794-fc7a-40d9-a8a3-09eb5c2358f6")
+	)
+	(junction
+		(at 204.47 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70c9f148-1c3e-4572-b3fc-f9c86f2a503c")
 	)
 	(junction
 		(at 68.58 185.42)
@@ -3636,6 +3682,16 @@
 			(type default)
 		)
 		(uuid "036d66df-9747-4629-86c6-b52317831d93")
+	)
+	(wire
+		(pts
+			(xy 207.01 158.75) (xy 207.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b6ab4b-16b7-466e-8cbf-ab4dfc610d3f")
 	)
 	(wire
 		(pts
@@ -4429,6 +4485,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f18b622-0b23-4756-91d4-c0edecc0b750")
+	)
+	(wire
+		(pts
 			(xy 144.78 177.8) (xy 144.78 184.15)
 		)
 		(stroke
@@ -4929,6 +4995,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 162.56) (xy 207.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8504316b-d09e-4262-9bc0-5c5b64fea70a")
+	)
+	(wire
+		(pts
 			(xy 227.33 125.73) (xy 240.03 125.73)
 		)
 		(stroke
@@ -5019,7 +5095,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 186.69 50.8)
+			(xy 175.26 50.8) (xy 185.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5076,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "954caaa7-084f-4eb5-80cc-9da46ba8da9e")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955b3634-eefb-4d12-a10c-061821e421a2")
 	)
 	(wire
 		(pts
@@ -5579,6 +5665,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 62.23) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf33b03f-84f0-45ed-bf3f-08385e237073")
+	)
+	(wire
+		(pts
 			(xy 91.44 64.77) (xy 91.44 66.04)
 		)
 		(stroke
@@ -6056,6 +6152,16 @@
 			(type default)
 		)
 		(uuid "fa8d2105-78eb-44a5-aeb9-54a28e46194d")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7e3966-002f-47af-ac01-3e70ed011ef9")
 	)
 	(wire
 		(pts
@@ -12923,6 +13029,16 @@
 		)
 		(uuid "07dd6aea-a115-47d4-9281-954e0b3abb3f")
 	)
+	(label "ETH_3.3V"
+		(at 160.02 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1050ddf6-c61e-460b-bee3-b31a38f79179")
+	)
 	(label "ETH_TD-"
 		(at 323.85 83.82 0)
 		(effects
@@ -13052,6 +13168,16 @@
 			(justify left bottom)
 		)
 		(uuid "68daa391-29bc-401d-8a07-a1d721881a92")
+	)
+	(label "ETH_3.3VA"
+		(at 158.75 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71978037-738f-4b85-9a11-44ff7d0c9bd0")
 	)
 	(label "PHY_AD4"
 		(at 64.77 110.49 0)
@@ -17480,6 +17606,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 185.42 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae1b453f-18f7-4797-9718-6eb73f3c214b")
+		(property "Reference" "C28"
+			(at 187.96 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 187.96 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "340a4a9b-314a-4acf-994d-78f0a15a5cdb")
+		)
+		(pin "2"
+			(uuid "199e6a51-c5f6-4d66-bf39-89e881846c2a")
+		)
+		(instances
+			(project "FatChudRuns"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/38bcdc9d-582a-45a7-b0b4-f0014b983161"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 133.35 49.53 0)
 		(unit 1)
@@ -18731,7 +18927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 			(at 227.33 157.48 0)
 			(effects
 				(font
@@ -18887,6 +19083,9 @@
 		)
 		(pin "7"
 			(uuid "60020e29-199f-4942-8830-f4cafd9cad97")
+		)
+		(pin "49"
+			(uuid "8e3fd3ea-93fd-4d90-99d3-6c2797e0273d")
 		)
 		(instances
 			(project "FatChudRuns"
