@@ -1,0 +1,5 @@
+(version 1)
+(rule Matched_length_diff_pair_1
+	(constraint skew (max 0.508mm))
+	(condition "A.hasNetclass('ETH_DP100')")
+)
