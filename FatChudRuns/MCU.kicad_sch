@@ -8154,16 +8154,6 @@
 		)
 		(uuid "74f90f59-ca01-4da6-8ef3-2b20b0eb7020")
 	)
-	(label "T_SWDIO"
-		(at 327.66 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "763b35f3-5d03-4c3a-850c-199bcef2af87")
-	)
 	(label "PC11"
 		(at 254 147.32 0)
 		(effects
@@ -8223,16 +8213,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e3c0821-7d72-422b-b575-2f4590892f9a")
-	)
-	(label "T_SWO"
-		(at 327.66 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83c6e0fd-e464-4f03-bfdc-7ffbd685ce17")
 	)
 	(label "PA3"
 		(at 212.09 66.04 180)
@@ -8343,6 +8323,16 @@
 			(justify right bottom)
 		)
 		(uuid "9e862bf7-c3f1-45dd-b533-a55ebdbf907f")
+	)
+	(label "T_JTDI"
+		(at 327.66 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a29183a2-0e8c-42fd-aa15-17e7b7f33908")
 	)
 	(label "PA5"
 		(at 302.26 127 180)
@@ -8474,6 +8464,16 @@
 		)
 		(uuid "c96d376a-7205-448a-a532-761c603f5c0c")
 	)
+	(label "T_SWCLK"
+		(at 327.66 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca025448-8ae4-4d27-995b-bd018015148f")
+	)
 	(label "PB8"
 		(at 212.09 121.92 180)
 		(effects
@@ -8503,16 +8503,6 @@
 			(justify right bottom)
 		)
 		(uuid "ddd78187-3ffd-4883-8edf-ee4be42f6246")
-	)
-	(label "T_SWCLK"
-		(at 327.66 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de419ffd-c099-4848-a773-ceee16114add")
 	)
 	(label "PC0"
 		(at 140.97 78.74 0)
@@ -8574,6 +8564,16 @@
 		)
 		(uuid "ea626ffb-b35d-466d-a5fe-7f20280c97ef")
 	)
+	(label "T_SWDIO"
+		(at 327.66 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead3ee49-f356-4dfb-9605-0c714787f491")
+	)
 	(label "PC13"
 		(at 254 152.4 0)
 		(effects
@@ -8604,6 +8604,16 @@
 		)
 		(uuid "f288450c-df74-48c9-9d79-7a43b5d8572b")
 	)
+	(label "T_SWO"
+		(at 327.66 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f30882a1-82e9-4d5e-bb72-54cf283101f0")
+	)
 	(label "PA9"
 		(at 302.26 132.08 180)
 		(effects
@@ -8613,16 +8623,6 @@
 			(justify right bottom)
 		)
 		(uuid "f3abe33d-bbf8-4c64-bd0e-a9aed280927d")
-	)
-	(label "T_JTDI"
-		(at 327.66 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6008d2a-6468-4f94-b98f-1e54231a41c3")
 	)
 	(label "T_SWDIO"
 		(at 212.09 91.44 180)

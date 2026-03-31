@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -211,7 +211,8 @@
       "track_widths": [
         0.0,
         0.156464,
-        0.254
+        0.254,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -246,6 +247,10 @@
         },
         {
           "diameter": 0.4572,
+          "drill": 0.3048
+        },
+        {
+          "diameter": 0.7112,
           "drill": 0.3048
         }
       ],
