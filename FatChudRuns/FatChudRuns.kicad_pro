@@ -66,12 +66,7 @@
           "width": 0.133096
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|175178000|131754777|8d4ab7c5-566d-4218-92f1-a1c04b103697|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -164,7 +159,7 @@
         "min_via_diameter": 0.449999,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.15,
+        "solder_mask_to_copper_clearance": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
