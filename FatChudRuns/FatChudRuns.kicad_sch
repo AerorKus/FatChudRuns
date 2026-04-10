@@ -5,7 +5,7 @@
 	(uuid "8ed38441-7d4e-4e89-870f-07e11c6dce38")
 	(paper "A4")
 	(title_block
-		(title "STM32 Value Line Discovery - Shiled board")
+		(title "FatChudRuns")
 		(date "20 oct 2012")
 		(rev "1.0")
 	)

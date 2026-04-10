@@ -20677,7 +20677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Pulse_JXD6-0001NL_Horizontal"
+		(property "Footprint" "JXD6-0001NL:RJ45_Pulse_JXD6-0001NL_Horizontal"
 			(at 355.6 73.66 0)
 			(hide yes)
 			(show_name no)
